@@ -12,7 +12,7 @@ This repository contains the QIIME2 shell script, R scripts, and sample metadata
 **Pipeline:** QIIME2 amplicon 2026.1  
 **Sequencing platform:** AVITI (Element Biosciences), paired-end, at MSU Research Technology Support Facility Genomics Core
 
-Raw sequencing reads are deposited in NCBI SRA under BioProject [ACCESSION].
+Raw sequencing reads are deposited in NCBI SRA under BioProject PRJNA1478682.
 
 ---
 
@@ -89,7 +89,7 @@ If you use these scripts, please cite:
 
 Henry CJ, Stelling EG, Lattin CR (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole. *Animal Microbiome*.
 
-Scripts archived at: [Zenodo DOI — to be added upon acceptance]
+Scripts archived at: https://doi.org/10.5281/zenodo.20818038
 
 ---
 
