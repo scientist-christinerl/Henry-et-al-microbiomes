@@ -27,7 +27,8 @@ R/
     clr_mixed_model_taxa.R          CLR-transformed mixed models for Helicobacteraceae
                                     and Mycoplasmataceae
     genus_within_target_families.R  Genus-level breakdown of target families
-    plot_alpha_paired_0p1.R         Alpha diversity paired plots (Fig. 1)
+    plot_alpha_paired_0p1.R         Alpha diversity paired plots
+    plot_alpha_figure1_0p1.R.       Publication-quality diversity paired plots (Figure 1)
     plot_pcoa_all_metrics.R         PCoA plots for all four beta diversity metrics
     taxonomy_multilevel.R           Phylum/order/family bar charts and summary tables
 metadata/
