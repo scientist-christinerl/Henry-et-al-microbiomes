@@ -2,7 +2,7 @@
 
 Scripts and metadata for:
 
-**Henry CJ, Stelling EG, Lattin CR** (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole. *Animal Microbiome*.
+**Henry CJ, Stelling EG, Lattin CR** (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole. *PeerJ*.
 
 ## Overview
 
