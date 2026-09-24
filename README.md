@@ -94,7 +94,7 @@ Scripts expect the folder structure produced by `qiime2_pipeline.sh` to be in pl
 
 If you use these scripts, please cite:
 
-Henry CJ, Stelling EG, Lattin CR (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole.
+Henry CJ, Stelling EG, Lattin CR (in review). Effects of captivity and species on the cloacal microbiomes of an invasive and native anole.
 
 Scripts archived at: https://doi.org/10.5281/zenodo.20818037
 
