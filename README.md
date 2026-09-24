@@ -2,7 +2,7 @@
 
 Scripts and metadata for:
 
-**Henry CJ, Stelling EG, Lattin CR** (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole. *PeerJ*.
+**Henry CJ, Stelling EG, Lattin CR** (in review). Effects of captivity and species on the cloacal microbiomes of an invasive and native anole. *PeerJ*.
 
 ## Overview
 
@@ -28,12 +28,13 @@ R/
                                     and Mycoplasmataceae
     genus_within_target_families.R  Genus-level breakdown of target families
     plot_alpha_paired_0p1.R         Alpha diversity paired plots
-    plot_alpha_figure1_0p1.R.       Publication-quality diversity paired plots (Figure 1)
+    plot_alpha_figure1_0p1.R        Alpha diversity by species (manuscript Figure 1)
     plot_pcoa_all_metrics.R         PCoA plots for all four beta diversity metrics
     taxonomy_multilevel.R           Phylum/order/family bar charts and summary tables
 metadata/
     sample-metadata-with-subject.tsv  Sample metadata including Subject column for
                                       paired mixed models (R analyses)
+    sensitivity_analysis.R          Sensitivity analysis 
 ```
 
 ---
@@ -44,16 +45,21 @@ metadata/
 - QIIME2 amplicon 2026.1 (`conda activate qiime2-amplicon-2026.1`)
 - SILVA 138.2 SSURef NR99 classifier (10.82364/138.2/SSU/Ref-NR99/QIIME2/2025.7/V4-515f-806r/uniform) trimmed to V4 region (515F–806R), available at https://www.arb-silva.de/
 
+### R
+- R version 4.5.2
+
 ### R packages
 | Package | Version used | Purpose |
 |---|---|---|
 | lme4 | 1.1-23 | Linear mixed models |
 | lmerTest | 3.2-0 | p-values for LMMs (Satterthwaite's method) |
-| vegan | 2.5-6 | PERMANOVA (adonis2), betadisper |
+| vegan | 2.7-3 | PERMANOVA (adonis2), betadisper |
 | ggplot2 | 3.3.2 | Figures |
 | dplyr | 1.0.2 | Data manipulation |
 | tidyr | 1.1.2 | Data reshaping |
 | readr | 1.4.0 | File I/O |
+| purrr | 1.2.1 | Functional iteration (map functions)
+| pwr | 1.3-0 | Sensitivity analysis |
 
 ---
 
@@ -90,7 +96,7 @@ If you use these scripts, please cite:
 
 Henry CJ, Stelling EG, Lattin CR (in review). Effects of captivity and host species on the cloacal microbiomes of a native and an invasive anole.
 
-Scripts archived at: https://doi.org/10.5281/zenodo.20818038
+Scripts archived at: https://doi.org/10.5281/zenodo.20818037
 
 ---
 
