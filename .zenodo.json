@@ -1,0 +1,23 @@
+{
+  "title": "Effects of captivity and species on the cloacal microbiomes of an invasive and native anole",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "description": "QIIME2 pipeline, R analysis and figure scripts, and sample metadata for Henry, Stelling & Lattin: cloacal microbiome of native green anoles (Anolis carolinensis) and invasive brown anoles (Anolis sagrei), sampled at capture and after two months in captivity. Raw 16S rRNA sequencing reads are in NCBI SRA under BioProject PRJNA1478682.",
+  "keywords": [
+    "gut microbiome",
+    "invasive species",
+    "Anolis carolinensis",
+    "Anolis sagrei",
+    "16S rRNA",
+    "alpha diversity",
+    "beta diversity",
+    "captivity",
+    "reptile"
+  ],
+  "creators": [
+    {"name": "Henry, Caroline J.", "affiliation": "Louisiana State University", "orcid": "0000-0003-4030-4212"},
+    {"name": "Stelling, Emily G.", "affiliation": "Louisiana State University (present address: Texas State University)", "orcid": "0009-0003-5362-9101"},
+    {"name": "Lattin, Christine R.", "affiliation": "Louisiana State University"}
+  ]
+}
